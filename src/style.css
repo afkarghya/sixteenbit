@@ -200,7 +200,6 @@ section {
 #header {
 	background-image: url("./images/cover.jpg");
 	background-attachment: fixed;
-	background-position: bottom;
 	overflow: hidden;
 	height: 15em;
 	display: flex;
