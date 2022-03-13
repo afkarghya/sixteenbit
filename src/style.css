@@ -21,8 +21,6 @@ body {
 	margin: 0;
 	overflow-x: hidden;
 	transition-duration: 200ms;
-	-ms-overflow-style: none;  /* IE and Edge */
-	scrollbar-width: none;  /* Firefox */
 }
 
 /*
@@ -300,3 +298,16 @@ footer label {
 		font-size: 0.7em;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
