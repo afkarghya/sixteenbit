@@ -16,7 +16,6 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-thumb:hover {
 	background-color: var(--brdr); 
-	border: 3px solid transparent;
 }
 
 body {
@@ -72,12 +71,35 @@ hr {
 	border-radius: 100px;
 }
 
+.sticky-nav {
+	color: var(--text);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid var(--brdr);
+	background-color: var(--clr-1);
+	position: fixed;
+	top: 0.8em;
+	left: 0.8em;
+	height: 1.4em;
+	width: 9.7em;
+	padding: 0.5em;
+	border-radius: 3em;
+}
+
+.sticky-nav span {
+	margin-left: 0.4em;
+	font-size: 1.3em;
+	border-left: 1px solid var(--brdr);
+	padding-left: 0.4em;
+}
+
 .floating-btn {
 	border: 1px solid var(--brdr);
 	background-color: var(--clr-1);
 	padding: 0.5rem;
-	min-height: 1.4em;
-	min-width: 1.4em;
+	height: 1.4em;
+	width: 1.4em;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -165,6 +187,8 @@ section {
 }
 
 #info .alert {
+	border-radius: 5px 5px 0px 0px;
+	margin-bottom: 0;
 	margin-top: 0.2em;
 	display: flex;
 	padding: 0em;
@@ -227,7 +251,7 @@ section {
 	
 	@media (max-width: 520px) {
 		.row, #info .alert .text {
-			font-size: 0.9em;
+			font-size: 0.8em;
 		}
 	}
 }
@@ -237,6 +261,9 @@ section {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	border-radius: 0px 0px 5px 5px;
+	margin-top: 0;
+	border-top: none;
 }
 
 .join-div a {
@@ -267,7 +294,7 @@ section {
 }
 
 #trailer {
-	margin-block: 1em;
+	margin-bottom: 1.3em;
 }
 
 #trailer iframe {
@@ -297,3 +324,6 @@ footer label {
 		font-size: 0.7em;
 	}
 }
+
+
+
