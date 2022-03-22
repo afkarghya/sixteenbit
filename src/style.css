@@ -81,7 +81,7 @@ hr {
 	position: fixed;
 	left: 0.8em;
 	height: 1.4em;
-	width: 9.7em;
+	width: 8.2em;
 	padding: 0.5em;
 	border-radius: 3em;
 	transform: scale(0.8);
@@ -89,10 +89,7 @@ hr {
 }
 
 .sticky-nav span {
-	margin-left: 0.4em;
 	font-size: 1.3em;
-	border-left: 1px solid var(--brdr);
-	padding-left: 0.4em;
 }
 
 @media (max-width: 670px) {
